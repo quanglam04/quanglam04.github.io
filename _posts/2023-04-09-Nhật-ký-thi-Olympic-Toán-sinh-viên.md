@@ -37,7 +37,7 @@ tags: [Học tập]
 
 - Một số ảnh khác mình chụp lại để lưu giữ kỷ niệm:
  
-![anh](../assets/images/olp/.1.jpg)
+![anh](../assets/images/olp/1.jpg)
 <p align="center"><em>Ảnh chụp sau khi gặp gỡ ban giám đốc học viện</em></p>
 
 ![anh](../assets/images/olp/21.jpg)
