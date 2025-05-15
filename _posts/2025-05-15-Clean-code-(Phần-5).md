@@ -414,6 +414,7 @@ public class FitNesseExpediter implements ResponseSender
         output =                    s.getOutputStream();
         requestParsingTimeLimit =   10000;
     }
+}
 ```
 
 Tôi đã từng làm vậy, tuy nhiên, loại căn chỉnh này không hữu ích. Cách căn chỉnh này khiến bạn bị hút vào một nửa sự thật và quên mất nửa còn lại. Trong ví dụ trên, bạn có thể bị hút mắt vào tên biến mà không quan tâm đến kiểu dữ liệu của nó. Tương tự cho các câu lệnh gán, bạn bị hấp dẫn bởi các rvalue mà không cần nhìn đến toán tử gán. Để làm mọi thứ trở nên tệ hơn (?!), các công cụ định dạng tự động thường loại bỏ cách căn chỉnh này.
@@ -442,6 +443,7 @@ public class FitNesseExpediter implements ResponseSender
         output = s.getOutputStream();
         requestParsingTimeLimit = 10000;
     }
+}
 ```
 
 - Việc lùi đầu dòng
