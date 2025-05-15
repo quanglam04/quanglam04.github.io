@@ -1,4 +1,3 @@
-
 ---
 title: "Clean code (Phần 4)"
 date: 2025-05-15 22:01:00  +0700
