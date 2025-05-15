@@ -8,7 +8,7 @@ tags: [Học tập]
 
 - Lớp
 - bởi Jeff Langr
-![Image tilte_1](../image/chap10_image01.png)
+![Image tilte_1](../assets/images/book/clean_code/chap10_image01.png)
 Cho đến nay trong cuốn sách này, chúng ta đã tập trung vào cách viết tốt các dòng và khối mã. Đi sâu vào thành phần thích hợp của các chức năng và cách chúng tương tác với nhau. Nhưng sau tất cả, sự chú ý đến tính biểu đạt của các câu lệnh và các chức năng mà chúng bao gồm, vẫn chưa có mã sạch cho đến khi quan tâm đến các cấp tổ chức mã cao hơn. Hãy nói về các mã lớp sạch.
 - Tổ chức lớp
 Theo quy ước Java tiêu chuẩn, một lớp phải bắt đầu bằng một danh sách các biến. Các **public static constants**, nếu có, nên xuất hiện trước. Sau đó là các biến **private static**, tiếp theo là các biến **private**. Ít khi có lý do chính đáng để có một biến là **public**.  
