@@ -26,51 +26,51 @@ tags: [Học tập]
 
 ```
 src/
-├── app/                     # Ứng dụng chính
-│   ├── layout/              # Các thành phần giao diện layout
-│   ├── pages/               # Các component theo từng trang (Page)
-│   ├── routes/              # Cấu hình định tuyến (React Router)
-│   ├── store/               # Quản lý state (Redux Toolkit)
-│   ├── styles/              # Style toàn cục và theme
-│   ├── App.tsx              # Component gốc của ứng dụng
-│   └── index.ts             # Điểm khởi đầu của ứng dụng (entry point)
+├── app/
+│   ├── layout/              # Layout components
+│   ├── pages/               # Page components and routing
+│   ├── routes/              # Router configuration
+│   ├── store/               # State management (Redux Toolkit)
+│   ├── styles/              # Global styles and theme
+│   ├── App.tsx              # Root component
+│   └── index.ts             # Entry point
 │
-├── assets/                  # Tài nguyên tĩnh (hình ảnh, font, v.v)
-├── environments/            # Cấu hình môi trường (API URL, keys, v.v)
-├── locales/                 # Đa ngôn ngữ (i18n – EN, JA, v.v)
+├── assets/                  # Static assets (images, fonts, etc.)
+├── environments/            # Environment configuration (api, etc.)
+├── locales/                 # Internationalization (JA, EN, etc.)
 │
-├── shared/                  # Các module chia sẻ, tiện ích dùng chung
-│   ├── components/          # Các UI component tái sử dụng
-│   ├── config/              # File cấu hình chung
-│   ├── constants/           # Các hằng số ứng dụng
-│   ├── enums/               # Enum dùng trong TypeScript
-│   ├── hooks/               # Custom React Hooks
-│   ├── services/            # Dịch vụ API và tích hợp ngoài
-│   ├── types/               # Định nghĩa các kiểu dữ liệu TypeScript
-│   ├── utils/               # Hàm tiện ích (format, xử lý chuỗi, v.v)
-│   └── validations/         # Luật kiểm tra và validate form
+└── shared/                  # Shared modules and utilities
+    ├── components/          # Reusable UI Components
+    ├── config/              # Configuration files
+    ├── constants/           # Application constants
+    ├── enums/               # TypeScript enums
+    ├── hooks/               # Custom React hooks
+    ├── services/            # API services and external integrations
+    ├── types/               # TypeScript type definition
+    ├── utils/               # Utility functions
+    └── validations/         # Form and data validation rules
 ```
 
 ## Folders & Files Naming
 
 ```
 //✅Good
-user-profile/index.tsx       // Components: dùng kebab-case
-useUserData.ts               // Hooks: camelCase, bắt đầu bằng "use"
-format-date.ts               // Utils: dùng kebab-case
-user-types.ts                // Types: dùng kebab-case
-api-endpoints.ts             // Constants: dùng kebab-case
-button/index.tsx             // Component folders: dùng kebab-case
-useLoadingHook.ts            // Hook file: camelCase + hậu tố "Hook"
+user-profile/index.tsx       // Components: kebab-case
+useUserData.ts               // Hooks: camelCase, with 'use' prefix
+format-date.ts               // Utils: kebab-case
+user-types.ts                // Types: kabab-case
+api-endpoints.ts             // Constants: kebab-case
+button/index.tsx             // Component folders:  kebab-case
+useLoadingHook.ts            // Hook file: camelCase with 'Hook' suffix
 
 //❌Bad
-userProfile.tsx              // ❌ Dùng camelCase cho component file
-UserData.ts                  // ❌ Hook thiếu tiền tố "use"
-format_date.ts               // ❌ Dùng snake_case
-userTypes.ts                 // ❌ Dùng camelCase cho type files
-apiEndpoints.ts              // ❌ Dùng camelCase cho constants
-Button/index.tsx             // ❌ Dùng PascalCase cho folder
-useLoading.ts                // ❌ Hook thiếu hậu tố "Hook"
+userProfile.tsx              // ❌ camelCase for component files
+UserData.ts                  // ❌ Hook without 'use' prefix
+format_date.ts               // ❌ snake_case
+userTypes.ts                 // ❌ camelCase for type files
+apiEndpoints.ts              // ❌ camelCase for constants
+Button/index.tsx             // ❌ PascalCase for folders
+useLoading.ts                // ❌ Missing 'Hook' suffix
 ```
 
 ## Naming Conventions
