@@ -4,14 +4,16 @@ date: 2025-06-29 22:52:00  +0700
 categories: [Học tập]
 tags: [Học tập]
 ---
+
 ---
+
 # Xác thực dựa trên Session (Session-Based Authentication)
+
 Quy trình bắt đầu khi người dùng gửi thông tin đăng nhập của họ tới server. Server xác minh thông tin đó, và nếu hợp lệ, nó sẽ tạo một session mới. Server lưu trữ dữ liệu session này, thường trong một cơ sở dữ liệu hoặc cache như Redis. Dữ liệu này có thể bao gồm ID người dùng, thời gian hết hạn session, và các metadata khác. Server phản hồi lại với một ID session (session ID) duy nhất, thường dưới dạng cookie.<br></br>Trong các request sau đó, client tự động gửi session ID cookie cùng với mỗi request. Server sử dụng session ID, tra cứu dữ liệu session tương ứng trong kho lưu trữ và sử dụng dữ liệu đó để xác thực và xử lý request.
 
 <p align="center">
-  <img src="../assets/images/session_vs_jwt/1.png" alt="Image title_1" />
+  <img src="/assets/images/session_vs_jwt/1.png" alt="Image title_1" />
 </p>
-
 
 Điểm mấu chốt là với xác thực session, server chịu trách nhiệm tạo và lưu trữ dữ liệu session. Nó sử dụng session ID như một key để lấy dữ liệu này cho các request trong tương lai. Một lợi thế của session là có thể thu hồi session một cách dễ dàng; khi dữ liệu session được lưu trên server, server có thể xóa hoặc vô hiệu hóa session bất kỳ lúc nào.
 
@@ -24,7 +26,7 @@ Tuy nhiên, trong một hệ thống phân tán nơi ứng dụng chạy trên n
 Trong các request tiếp theo, khách hàng gửi JWT trong request headers. Server xác minh chữ ký của JWT. Nếu hợp lệ, server tin tưởng vào dữ liệu trong token và sử dụng nó cho xác thực và phân quyền.
 
 <p align="center">
-  <img src="../assets/images/session_vs_jwt/2.png" alt="Image title_1" />
+  <img src="/assets/images/session_vs_jwt/2.png" alt="Image title_1" />
 </p>
 
 Sự khác biệt quan trọng ở đây là với JWT, server không lưu trữ trạng thái session. Tất cả dữ liệu cần thiết đều nằm trong token, được lưu trữ phía client. Điều này làm cho JWT là một phương pháp không trạng thái (stateless).
@@ -32,31 +34,31 @@ Sự khác biệt quan trọng ở đây là với JWT, server không lưu trữ
 Khi ký JWT, có nhiều thuật toán, với HMAC, RSA và ECDSA là những phương pháp phổ biến nhất. HMAC là phương pháp ký đối xứng, tức là sử dụng cùng một khóa bí mật để ký và xác minh token. Điều này đơn giản và hiệu quả hơn, nhưng đòi hỏi phải chia sẻ khóa bí mật với mọi dịch vụ cần xác minh token, có thể gây rủi ro về bảo mật.
 
 <p align="center">
-  <img src="../assets/images/session_vs_jwt/3.png" alt="Image title_1" />
+  <img src="/assets/images/session_vs_jwt/3.png" alt="Image title_1" />
 </p>
 
 Ngược lại, RSA và ECDSA là các phương pháp ký bất đối xứng. Chúng sử dụng một khóa riêng để ký và một khóa công khai để xác minh, cho phép một kiến trúc an toàn hơn khi chỉ giữ bí mật khóa riêng để ký, trong khi bất kỳ dịch vụ nào cũng có thể xác minh token bằng khóa công khai. Tuy nhiên, ký bất đối xứng phức tạp và tốn nhiều tài nguyên hơn so với HMAC.
 
 <p align="center">
-  <img src="../assets/images/session_vs_jwt/4.png" alt="Image title_1" />
+  <img src="/assets/images/session_vs_jwt/4.png" alt="Image title_1" />
 </p>
 
 Lựa chọn thuật toán ký phụ thuộc vào yêu cầu bảo mật và kiến trúc hệ thống của bạn. Nếu bạn có một ứng dụng monolithic hoặc tin tưởng vào tất cả các dịch vụ trong hệ thống của bạn, bạn có thể dùng HMAC là được. Nhưng nếu bạn có một kiến trúc microservice hoặc cần chia sẻ JWT với các dịch vụ bên ngoài không tin cậy, RSA hoặc ECDSA cung cấp một giải pháp an toàn hơn.
 
 <p align="center">
-  <img src="../assets/images/session_vs_jwt/5.png" alt="Image title_1" />
+  <img src="/assets/images/session_vs_jwt/5.png" alt="Image title_1" />
 </p>
 
 Một thách thức với JWT là xử lý thời hạn hiệu lực của token. Nếu token bị đánh cắp, nó có thể bị sử dụng cho đến khi hết hạn. Để giảm thiểu rủi ro này, bạn có thể sử dụng refresh tokens kết hợp với các access token ngắn hạn. Access token là JWT được sử dụng để xác thực cho mỗi request và có thời gian hết hạn ngắn, thường khoảng 15 phút. Refresh token, ngược lại, có thời gian tồn tại lâu hơn, có thể là vài ngày hoặc vài tuần.
 
 <p align="center">
-  <img src="../assets/images/session_vs_jwt/6.png" alt="Image title_1" />
+  <img src="/assets/images/session_vs_jwt/6.png" alt="Image title_1" />
 </p>
 
 Khi access token hết hạn, thay vì yêu cầu người dùng đăng nhập lại, client có thể gửi refresh token tới một endpoint đặc biệt của server. Server kiểm tra refresh token xem có hợp lệ và chưa bị thu hồi hay không. Nếu mọi thứ đều hợp lệ, server cấp một access token mới. Quá trình này diễn ra ngầm, không yêu cầu người dùng phải tương tác.
 
 <p align="center">
-  <img src="../assets/images/session_vs_jwt/7.png" alt="Image title_1" />
+  <img src="/assets/images/session_vs_jwt/7.png" alt="Image title_1" />
 </p>
 
 Phương pháp này cân bằng giữa bảo mật và trải nghiệm người dùng. Access token ngắn hạn giới hạn khả năng dùng sai mục đích nếu token bị đánh cắp, trong khi refresh token cho phép người dùng duy trì xác thực trong một khoảng thời gian dài mà không cần đăng nhập lại liên tục. Chú ý là refresh token chỉ được gửi khi access token hết hạn, không phải trên mỗi request. Access token được gửi trên mỗi request yêu cầu xác thực.
@@ -68,12 +70,11 @@ Phương pháp này cân bằng giữa bảo mật và trải nghiệm người 
 - Ngược lại, JWT là một lựa chọn tuyệt vời khi bạn cần một kiến trúc không trạng thái. Do JWT chứa tất cả dữ liệu cần thiết trong token, server không cần theo dõi session trong bộ nhớ hoặc cơ sở dữ liệu, giúp dễ dàng mở rộng ứng dụng theo chiều ngang trên nhiều server. JWT cũng hữu ích khi bạn cần chia sẻ dữ liệu xác thực với các dịch vụ khác. Ví dụ, trong một kiến trúc microservices, một JWT được tạo bởi dịch vụ xác thực có thể được xác minh và tin tưởng bởi các dịch vụ khác mà không cần phải liên hệ với dịch vụ xác thực trong mỗi request.
 
 <p align="center">
-  <img src="../assets/images/session_vs_jwt/8.png" alt="Image title_1" />
+  <img src="/assets/images/session_vs_jwt/8.png" alt="Image title_1" />
 </p>
 
 - Nếu bạn chọn JWT, hãy cân nhắc việc triển khai refresh token để cân bằng giữa bảo mật và trải nghiệm người dùng. Refresh token cho phép sử dụng các access token ngắn hạn để giới hạn khả năng lạm dụng nếu token bị đánh cắp, đồng thời vẫn cho phép người dùng duy trì đăng nhập trong một thời gian dài mà không cần đăng nhập lại thường xuyên. Cuối cùng, lựa chọn phụ thuộc vào nhu cầu cụ thể và kiến trúc của ứng dụng của bạn.
 
 <p align="center">
-  <img src="../assets/images/session_vs_jwt/9.png" alt="Image title_1" />
+  <img src="/assets/images/session_vs_jwt/9.png" alt="Image title_1" />
 </p>
-

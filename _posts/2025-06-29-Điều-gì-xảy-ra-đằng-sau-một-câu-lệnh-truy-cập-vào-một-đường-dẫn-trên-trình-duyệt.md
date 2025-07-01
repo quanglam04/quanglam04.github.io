@@ -8,14 +8,15 @@ tags: [Học tập]
 # Có bao giờ bạn thắc mắc: chuyện gì sẽ xảy ra khi ta truy cập vào một đường dẫn (URL) trên trình duyệt?
 
 ## Trước khi đi vào tìm hiểu, chúng ta cần biết URL là gì?
+
 URL, hay tên đầy đủ là Universal Resources Locator, bao gồm 4 phần. Ví dụ với URL sau:
 
 <p align="center">
-  <img src="../assets/images/handle_URL/1.png" alt="Image title_1" />
+  <img src="/assets/images/handle_URL/1.png" alt="Image title_1" />
 </p>
 
-
 Trong đó:
+
 - **Scheme** cho trình duyệt biết rằng ta sẽ kết nối đến một server bằng giao thức trong scheme (ở đây là giao thức HTTP). Một scheme phổ biến khác là HTTPS, với sự khác biệt là kết nối đến server sẽ được mã hoá.
 - **Domain** là tên miền của website.
 - **Path** và **Resource** thường không có sự khác biệt rõ ràng. Có thể xem chúng lần lượt là thư mục và tập tin trong một ổ cứng bình thường. Chúng kết hợp với nhau tạo thành tài nguyên và ta muốn tải về trình duyệt.
@@ -29,10 +30,8 @@ Thông thường, địa chỉ IP ứng với tên miền được cached lại 
 ## Vậy chuyện gì sẽ xảy ra khi truy cập vào một đường dẫn (URL) trên trình duyệt
 
 <p align="center">
-  <img src="../assets/images/handle_URL/2.png" alt="Image title_1" />
+  <img src="/assets/images/handle_URL/2.png" alt="Image title_1" />
 </p>
-
-
 
 Đầu tiên, người dùng sẽ gõ URL vào thanh địa chỉ (Address) trên trình duyệt.
 
