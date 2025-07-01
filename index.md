@@ -1,1 +1,1 @@
-Simple blog
+A simple blog created to share knowledge.
