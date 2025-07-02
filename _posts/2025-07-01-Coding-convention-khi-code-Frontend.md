@@ -708,6 +708,12 @@ const UserCard = ({ user, onEdit, onDelete }) => { // No memo, no typing
 // Component re-renders even when prop haven't changed
 ```
 
+> useEffect - Gọi an toàn
+>
+> - Không gọi API trực tiếp trong useEffect nếu không xử lý Clean
+> - Tránh để function fetch lặp lại nhiều lần không cần thiết, nên dùng useCallback nếu có dependency
+> - Đảm baor không cập nhật state khi component đã unmount
+
 # Code Organization
 
 **Service Layer**
@@ -775,6 +781,8 @@ src/pages/user-management/
 > VD: màn C101-4 thuộc module của màn C101-1
 
 2. Define Types
+
+Các type dùng chung sẽ định nghĩa ở trong thư mục shared/types/,request,response từ API sẽ thêm ... Request, ...Response
 
 ```
 // ✅ Good
@@ -885,6 +893,34 @@ export default userService;
 ```
 
 5. Business logic
+
+- Các hàm chỉ dùng trong business logic thì thêm \_ trước mỗi hàm
+- Comment rõ ràng với tài liệu VD
+
+```
+//1. 初期表示
+  useEffect(() => {
+    if (navigationType === 'POP') {
+      const tempData = store.getState().appRoot.tempData;
+      if (tempData) {
+        const data = tempData as KeepSearchData;
+        /**
+        * パラメータreSearchFlagがfalseの場合、画面項目定義の初期値の通りに画面を表示する。
+        * パラメータreSearchFlagがtureの場合、保存された検索条件を画面に再表示し、検索条件によりの再検索を行う。
+        */
+      if (data.key === CUSTOMER_MANAGEMENT_JP_KEY && data.shouldSetData) {
+       form.setFieldsValue(data.data);
+       const payload: KeepSearchData = {
+        shouldSetData: false,
+        ...data,
+       };
+      dispatch(setTempData(payload));
+     }
+   }
+  }
+}, []);
+
+```
 
 ```
 /**
