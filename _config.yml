@@ -19,7 +19,8 @@ facebook_username: https://www.facebook.com/profile.php?id=100041721947314
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 theme: "minima"
-
+paginate: 5 # số bài viết mỗi trang
+paginate_path: "/page:num" # URL của các trang phân trang
 rss: rss
 
 kramdown:
