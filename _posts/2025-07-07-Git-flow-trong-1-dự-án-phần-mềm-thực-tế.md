@@ -5,7 +5,11 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
-# 1. Cấu trúc Branch
+---
+
+# Git flow trong 1 dự án phần mềm thực tế
+
+## 1. Cấu trúc Branch
 
 ```
 main (production)
@@ -16,7 +20,7 @@ main (production)
 └── release/v1.2.0
 ```
 
-# 2. Workflow Chi tiết
+## 2. Workflow Chi tiết
 
 **Bước 1: Khởi tạo Repository**
 
