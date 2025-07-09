@@ -42,6 +42,14 @@ tags: [Học tập]
 
 ### git reset
 
+### git revert
+
 ### git branch
+
+### git log
+
+### git remote set-url origin
+
+### git remote add origin <url>
 
 ### git checkout
