@@ -9,9 +9,6 @@ tags: [Học tập]
 
 # Cách thiết lập quy tắc bảo vệ nhánh Git trong Github
 
-- Tài khoản test: quanglam04
-- Tài khoản test: mynguyen3010
-
 ## Bước 1: Điều hướng đến trang chủ kho lưu trữ tại Github
 
 <p align="center">
