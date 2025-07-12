@@ -214,3 +214,12 @@ Các lệnh con:
 - `git remote -v`: Liệt kê tên của các remote repository cùng với URL của chúng (bao gồm cả URL cho việc fetch và push). Dùng khi muốn kiểm tra xem remote `origin` đang trỏ đến đâu
 - `git remote add <tên remote>`: Thêm một remote repository mới vào cấu hình. `origin` là tên remote phổ biến nhất, nhưng có thể đặt tên bất kỳ.
 - `git remote set-url origin <tên remote>`: Lệnh này cho phép thay đổi địa chỉ URL của một remote repository đã tồn tại. Đây là một lệnh hữu ích khi cần di chuyển dự án của mình sang một máy chủ Git mới, hoặc khi URL của repository thay đổi (ví dụ: từ HTTP sang SSH).
+
+**7. Bổ sung**
+
+- Thay đổi lịch sử commit với `git rebase`:
+
+> 1.  Chọn commit cần thay đổi message, copy mã commit nằm ngay sau commit đó. Cú pháp `git rebase -i <mã commit>`
+> 2.  Tùy chọn `r` thay vì `pick` để thay đổi message commit sau đó nhấn `:wq`
+> 3.  Giao diện màn hình hiển thị ra, nhập message cần thay đổi. Sau đó nhấn `:wq`
+> 4.  Sử dụng `git push --force` để ghi đè lịch sử commit trước đó
