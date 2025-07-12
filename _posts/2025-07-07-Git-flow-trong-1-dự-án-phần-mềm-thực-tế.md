@@ -9,6 +9,10 @@ tags: [Học tập]
 
 # Git flow trong 1 dự án phần mềm thực tế
 
+<p align="center">
+  <img src="/assets/images/git/git-flow.png" alt="Image title_1" />
+</p>
+
 ## 1. Cấu trúc Branch
 
 ```
