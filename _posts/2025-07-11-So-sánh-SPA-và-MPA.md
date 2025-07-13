@@ -13,11 +13,13 @@ MPA là Multiple Page Application, tức là những website truyền thống ch
 
 ## Độ khó học
 
-- SPA khó hơn so với MPA khi bạn phải học thêm một đống thứ xung quanh js framework
+- SPA khó hơn so với MPA khi phải học thêm một đống thứ xung quanh js framework
 
 ## SEO
 
-- MPA SEO tốt hơn so với SPA vì trả về source html ngay khi load trang web, còn SPA thì phải mất thời gian mới render ra html.
+- MPA SEO tốt hơn so với SPA vì trả về source html ngay khi load trang web. Điều này sẽ giúp cho các hệ thống search-engine có thể tìm kiếm kết quả nhanh 1 cách chính xác
+
+- SPA thì phải mất thời gian mới render ra html
 
 - Những bot crawler hiện nay không đọc tốt những trang web mà SPA
 
