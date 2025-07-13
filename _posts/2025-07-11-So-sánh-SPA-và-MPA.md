@@ -23,7 +23,7 @@ MPA là Multiple Page Application, tức là những website truyền thống ch
 
 - Những bot crawler hiện nay không đọc tốt những trang web mà SPA
 
-**Tuy nhiên** vẫn có cách cải thiện điểm yếu này là render html ngay tại server luôn rồi trả về tương tự MPA. Chúng ta có thể dùng Next.js thay vì React thuần.
+**Tuy nhiên** vẫn có cách cải thiện điểm yếu này là render html ngay tại server luôn rồi trả về tương tự MPA. Đó chính là lý do **NextJS** framework ra đời
 
 ## UX
 
