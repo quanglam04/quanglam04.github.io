@@ -4,5 +4,4 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Mình là Trịnh Quang Lâm. Hiện là sinh viên 3 Học viện Công nghệ Bưu chính Viễn thông
