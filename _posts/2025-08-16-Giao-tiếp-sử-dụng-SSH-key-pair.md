@@ -92,7 +92,7 @@ Trong case study này, public key đã được thêm vào `~/.ssh/authorized_ke
 Thông thường,có 2 cách phổ biến để đưa public key lên server:
 
 - Cách 1: 
-Tại cửa sổ terminal VPS, di chuyển đến vị trí file 'authorized_keys', chỉnh sửa file: 
+Tại cửa sổ terminal VPS, di chuyển đến vị trí file `authorized_keys`, chỉnh sửa file: 
 
 ```
 nano authorized_keys
