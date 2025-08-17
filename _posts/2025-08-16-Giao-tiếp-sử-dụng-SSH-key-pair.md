@@ -124,7 +124,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ```
 
-Bạn gõ 'yes'. Từ đó về sau, fingerprint này sẽ được lưu trong `~/.ssh/known_hosts` trên máy của bạn
+Bạn gõ `yes`. Từ đó về sau, fingerprint này sẽ được lưu trong `~/.ssh/known_hosts` trên máy của bạn
 Nếu mọi thứ đúng, bạn sẽ thấy:
 
 ```
