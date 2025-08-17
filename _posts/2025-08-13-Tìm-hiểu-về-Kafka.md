@@ -1,5 +1,5 @@
 ---
-title: "Tìm hiểu về Kafka"
+title: "Tìm hiểu về Kafka(loading...)"
 date: 2025-08-13 01:17:00  +0700
 categories: [Học tập]
 tags: [Học tập]
