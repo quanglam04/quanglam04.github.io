@@ -15,18 +15,18 @@ tags: [Học tập]
 </p>
 
 CI/CD là tập hợp các hành động nhằm tự động hóa vòng đời phát triển phần mềm, trong đó:
-- CI - Continuous Integration: khi push code, hệ thống tự cài dependencies -> build -> chạy lint/test. Mục tiêu để phát hiện lỗi sớm, giữ nhánh chính luôn xanh
-- CD - Continuous Delivery: sau khi CI pass, hệ thống đóng gói artifact(ví dụ: như mục build của React) và sẵn sàng deploy 
+- **CI - Continuous Integration**: khi push code, hệ thống tự cài dependencies -> build -> chạy lint/test. Mục tiêu để phát hiện lỗi sớm, giữ nhánh chính luôn xanh
+- **CD - Continuous Delivery**: sau khi CI pass, hệ thống đóng gói artifact(ví dụ: như mục build của React) và sẵn sàng deploy 
 
 ## Github Actions - Các khái niệm cốt lõi 
 
-- Workflow: 1 kịch bản tự động hóa (file .yml) chạy theo trigger (push, PR, cron, manual,...)
-- Job: 1 nhóm bước chạy trên 1 máy ảo (runner). Nhiều job có thể chạy song song hoawjca theo needs
-- Step: 1 lệnh đơn hoặc 1 Action
-- Action: khối tái sử dụng (ví dụ actions/checkout, action/setup-node)
-- Runner: máy thực thi (Ubuntu, Windows, macOS). Thường dùng ubuntu-latest
-- Secrets/Variables: cấu hình nhạy cảm (token) & biến không nhạy cảm
-- Artifacts & Cache: Lưu output (artiface) và cache dependencies để chạy nhanh hơn
+- `Workflow`: 1 kịch bản tự động hóa (file .yml) chạy theo trigger (push, PR, cron, manual,...)
+- `Job`: 1 nhóm bước chạy trên 1 máy ảo (runner). Nhiều job có thể chạy song song hoawjca theo needs
+- `Step`: 1 lệnh đơn hoặc 1 Action
+- `Action`: khối tái sử dụng (ví dụ actions/checkout, action/setup-node)
+- `Runner`: máy thực thi (Ubuntu, Windows, macOS). Thường dùng ubuntu-latest
+- `Secrets/Variables`: cấu hình nhạy cảm (token) & biến không nhạy cảm
+- `Artifacts & Cache`: Lưu output (artiface) và cache dependencies để chạy nhanh hơn
 
 ## Case Study
 
