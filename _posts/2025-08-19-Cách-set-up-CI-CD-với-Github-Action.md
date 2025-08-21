@@ -9,11 +9,6 @@ tags: [Học tập]
 
 ## CI/CD là gì? (loading...)
 
-
-<p align="center">
-  <img src="/assets/images/ci-cd/1.png" alt="Image title_1" />
-</p>
-
 CI/CD là tập hợp các hành động nhằm tự động hóa vòng đời phát triển phần mềm, trong đó:
 - **CI - Continuous Integration**: khi push code, hệ thống tự cài dependencies -> build -> chạy lint/test. Mục tiêu để phát hiện lỗi sớm, giữ nhánh chính luôn xanh
 - **CD - Continuous Delivery**: sau khi CI pass, hệ thống đóng gói artifact(ví dụ: như mục build của React) và sẵn sàng deploy 
