@@ -5,7 +5,6 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
----
 
 # So sánh SPA (Single-Page-Application) và MPA (Mutilple-Page-Application)
 
