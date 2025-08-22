@@ -1,8 +1,8 @@
 ---
 title: "Điều gì xảy ra đằng sau một câu lệnh truy cập vào một đường dẫn trên trình duyệt"
 date: 2025-06-29 23:55:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Web, Networking]
+tags: [browser, http, networking]
 ---
 
 ---

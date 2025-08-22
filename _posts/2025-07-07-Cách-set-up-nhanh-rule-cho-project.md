@@ -1,8 +1,8 @@
 ---
 title: "Cách set-up nhanh rules cho project"
 date: 2025-07-07 21:38:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Programming, ProjectSetup]
+tags: [rules, setup, project]
 ---
 
 ---

@@ -1,8 +1,8 @@
 ---
 title: "So sánh Session và JWT"
 date: 2025-06-29 22:52:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Web, Security, Auth]
+tags: [session, jwt, authentication]
 ---
 
 ---

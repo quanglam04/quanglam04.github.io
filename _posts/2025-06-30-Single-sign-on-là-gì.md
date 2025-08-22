@@ -1,8 +1,8 @@
 ---
 title: "Tìm hiểu về Single Sign-on (SSO)."
 date: 2025-06-30 21:38:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Web, Security, Auth]
+tags: [sso, authentication, security]
 ---
 
 ---

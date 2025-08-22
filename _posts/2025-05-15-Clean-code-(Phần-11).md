@@ -1,8 +1,8 @@
 ---
 title: "Clean code (Phần 11)"
 date: 2025-05-15 22:01:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Programming, BestPractices]
+tags: [clean code, coding style, best practice]
 ---
 
 ---
