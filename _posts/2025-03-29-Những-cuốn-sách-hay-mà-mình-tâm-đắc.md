@@ -1,8 +1,8 @@
 ---
 title: "Những cuốn sách hay mà mình tâm đắc (Phần 1)"
 date: 2025-03-29 21:38:00  +0700
-categories: [Những cuốn sách hay mà mình tâm đắc]
-tags: [Sách]
+categories: [Life, Books]
+tags: [sách, review, đọc sách]
 ---
 
 ---

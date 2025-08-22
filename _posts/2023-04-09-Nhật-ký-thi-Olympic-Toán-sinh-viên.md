@@ -1,8 +1,8 @@
 ---
 title: "Nhật ký thi Olympic toán sinh viên toàn quốc"
 date: 2023-04-09 01:17:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Life, Study]
+tags: [olympic, toán, sinh viên]
 ---
 
 ---
