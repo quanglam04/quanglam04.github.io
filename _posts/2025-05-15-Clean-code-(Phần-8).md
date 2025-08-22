@@ -5,6 +5,8 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
+---
+
 - Ranh giới
 - bởi James Grenning
   ![Image tilte_1](/assets/images/book/clean_code/chap08_image01.png)

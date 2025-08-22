@@ -5,6 +5,8 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
+---
+
 # Hiểu cơ chế Re-render của React để tối ưu cho đúng
 
 ## Trong bài viết này, chúng ta sẽ cùng xem xét 1 Bug hiệu năng phổ biến, hiểu về cơ chế re-render của Recat và khám phá một kỹ thuật tối ưu chỉ bằng cấu trúc lại component

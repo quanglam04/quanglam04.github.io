@@ -4,6 +4,9 @@ date: 2025-05-15 22:01:00  +0700
 categories: [Học tập]
 tags: [Học tập]
 ---
+
+---
+
 - CHƯƠNG 3: HÀM
 
 Trong những buổi đầu của việc lập trình, chúng tôi soạn thảo các hệ thống câu lệnh và các chương trình con. Sau đó, trong thời đại của Fortran và PL/1, chúng tôi soạn thảo các hệ thống chương trình, chương trình con, và các hàm. Ngày nay, chỉ còn các hàm là tồn tại. Các hàm là những viên gạch xây dựng nên chương trình. Và chương này sẽ giúp bạn tạo nên những viên gạch chắc chắn cho chương trình của bạn.

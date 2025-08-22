@@ -5,6 +5,8 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
+---
+
 # Có bao giờ bạn thắc mắc: chuyện gì sẽ xảy ra khi ta truy cập vào một đường dẫn (URL) trên trình duyệt?
 
 ## Trước khi đi vào tìm hiểu, chúng ta cần biết URL là gì?

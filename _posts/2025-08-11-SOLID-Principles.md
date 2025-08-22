@@ -5,6 +5,8 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
+---
+
 # SOLID Principles trong phát triền phần mềm
 
 _Nguồn: baeldung.com_

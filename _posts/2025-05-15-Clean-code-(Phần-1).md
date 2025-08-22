@@ -5,6 +5,8 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
+---
+
 - CHƯƠNG 1: CODE SẠCH  
   
 Bạn đang đọc quyển sách này vì hai lý do. Thứ nhất, bạn là một lập trình viên. Thứ hai, bạn muốn trở thành một lập trình viên giỏi. Tuyệt vời! Chúng tôi cần lập trình viên giỏi.*  

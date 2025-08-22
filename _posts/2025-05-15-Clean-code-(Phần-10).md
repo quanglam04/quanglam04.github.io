@@ -5,6 +5,8 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
+---
+
 - Lớp
 - bởi Jeff Langr
   ![Image tilte_1](/assets/images/book/clean_code/chap10_image01.png)

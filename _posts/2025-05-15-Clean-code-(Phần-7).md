@@ -5,6 +5,8 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
+---
+
 - Chaper 07: Xử lý lỗi
 - Michael Feathers
   ![Image tilte_1](/assets/images/book/clean_code/chap07_image01.png)

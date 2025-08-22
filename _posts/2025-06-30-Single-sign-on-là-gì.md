@@ -5,6 +5,8 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
+---
+
 # Đăng nhập một lần (Single Sign-on - SSO) là gì?
 
 **SSO (hay Single Sign-on, Đăng nhập một lần)** là một sơ đồ xác thực. Nó cho phép người dùng truy cập an toàn vào nhiều ứng dụng và dịch vụ với một ID duy nhất.

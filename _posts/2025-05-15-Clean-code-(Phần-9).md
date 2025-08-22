@@ -5,6 +5,8 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
+---
+
 - Kiểm tra đơn vị
   ![Image tilte_1](/assets/images/book/clean_code/chap09_image01.png)
   Nghề của chúng ta đã đi một chặng đường dài trong mười năm qua. Năm 1997, không ai nghe nói về **Phát triển theo hướng kiểm tra**. Đối với đại đa số nhà phát triển, các bài kiểm tra đơn vị là những đoạn mã ngắn được viết để đảm bảo chương trình “hoạt động”. Chúng tôi sẽ cẩn thận viết các lớp và phương thức của mình rồi sau đó tạo ra một số mã đặc biệt để kiểm tra chúng. Thông thường, điều này sẽ liên quan đến một số loại chương trình điều khiển đơn giản cho phép tương tác thủ công với chương trình đã viết.

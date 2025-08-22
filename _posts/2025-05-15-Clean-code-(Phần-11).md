@@ -5,6 +5,8 @@ categories: [Học tập]
 tags: [Học tập]
 ---
 
+---
+
 - Hệ thống
 - bởi Tiến sĩ Kevin Dean Wampler
   ![Image tilte_1](/assets/images/book/clean_code/chap11_image01.png)
