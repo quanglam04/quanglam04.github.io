@@ -1,8 +1,8 @@
 ---
 title: "Cơ chế xác thực SSH bằng cặp khóa"
 date: 2025-08-16 01:17:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [DevOps, Security, SSH]
+tags: [ssh, public-key, openssh, authentication, linux]
 ---
 
 ---

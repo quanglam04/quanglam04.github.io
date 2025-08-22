@@ -1,8 +1,8 @@
 ---
 title: "Git flow trong 1 dự án phần mềm thực tế"
 date: 2025-07-07 21:38:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Tools, Git, Workflow]
+tags: [git, branching, workflow]
 ---
 
 ---

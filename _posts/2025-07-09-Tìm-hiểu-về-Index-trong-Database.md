@@ -1,8 +1,8 @@
 ---
 title: "Tìm hiểu về index trong database"
 date: 2025-07-09 21:38:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Backend, Database]
+tags: [backend,database]
 ---
 
 ---

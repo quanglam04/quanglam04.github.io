@@ -1,8 +1,8 @@
 ---
 title: "So sánh SPA (Single-Page-Application) và MPA (Mutilple-Page-Application)"
 date: 2025-07-11 21:38:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Web, Architecture, Frontend]
+tags: [web,architecture,frontend]
 ---
 
 ---

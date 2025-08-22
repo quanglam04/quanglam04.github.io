@@ -1,8 +1,8 @@
 ---
 title: "Tìm hiểu về Docker"
 date: 2025-08-20 01:17:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [DevOps, Docker]
+tags: [docker, container, devops]
 ---
 
 ---

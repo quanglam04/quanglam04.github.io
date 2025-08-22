@@ -1,8 +1,8 @@
 ---
 title: "Một số câu lệnh thao tác với git cần phải biết"
 date: 2025-07-07 21:38:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Tools, Git]
+tags: [git]
 ---
 
 ---

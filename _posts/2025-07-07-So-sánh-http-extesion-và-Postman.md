@@ -1,8 +1,8 @@
 ---
 title: "REST Client VS Code - Complete Guide"
 date: 2025-07-07 01:17:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Tools, VSCode, API]
+tags: [tools,vscode,api]
 ---
 
 ---

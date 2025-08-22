@@ -1,8 +1,8 @@
 ---
 title: "Một số tính năng JavaScript ES6 mà bạn cần biết"
 date: 2025-07-01 21:38:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Programming, JavaScript]
+tags: [javascript, es6, tips]
 ---
 
 ---

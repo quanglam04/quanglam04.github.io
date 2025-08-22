@@ -1,8 +1,8 @@
 ---
 title: "SOLID Principles trong phát triển phần mềm"
 date: 2025-08-11 01:17:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Programming, BestPractices]
+tags: [clean code, coding style, best practice]
 ---
 
 ---

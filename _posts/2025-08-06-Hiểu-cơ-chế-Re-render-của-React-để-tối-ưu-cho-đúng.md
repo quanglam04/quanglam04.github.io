@@ -1,8 +1,8 @@
 ---
 title: "Hiểu cơ chế Re-render của React để tối ưu cho đúng"
 date: 2025-08-06 21:38:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [React]
+tags: [programming,react]
 ---
 
 ---

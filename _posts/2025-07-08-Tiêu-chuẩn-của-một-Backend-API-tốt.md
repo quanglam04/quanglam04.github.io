@@ -1,8 +1,8 @@
 ---
 title: "Tiêu chuẩn của một API Backend tốt"
 date: 2025-07-08 21:38:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [Backend, API, BestPractices]
+tags: [api, rest, backend]
 ---
 
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Cách Set-up một hệ thống CI/CD sử dụng Github Action"
 date: 2025-08-19 01:17:00  +0700
-categories: [Học tập]
-tags: [Học tập]
+categories: [DevOps, CICD, Github]
+tags: [cicd, github action, automation]
 ---
 
 ---
