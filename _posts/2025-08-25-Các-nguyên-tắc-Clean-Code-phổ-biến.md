@@ -1,8 +1,8 @@
 ---
 title: "10 nguyên tắc Clean Code phổ biến"
-date: 2025-08-26 01:17:00  +0700
-categories: [Clean]
-tags: [clean,best practice]
+date: 2025-08-25 01:17:00  +0700
+categories: [Programming, BestPractices]
+tags: [clean code, coding style, best practice]
 ---
 
 ---
