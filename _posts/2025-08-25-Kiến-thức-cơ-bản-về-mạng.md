@@ -22,8 +22,6 @@ tags: [networking]
       - 10., 172.16, 172.31 và 192.168 được sử dụng cho mạng internal
       - 127.(127.0.0.1 hoặc hostname localhost) địa chỉ local loopback
 
-
-
 ## Mô hình mạng
 
 Mô hình OSI là mô hình `7 tầng lý thuyết`, còn TCP/IP là mô hình thực tế được dùng trên Internet.
@@ -92,6 +90,7 @@ Trong khi đó, torrent hoạt động theo mô hình peer-to-peer. Khi bạn t�
 </p>
 
 ## Công cụ kiểm tra và giám sát mạng
+
 - `ping google.com` → kiểm tra xem bạn có kết nối đến Google được không.
 - `nslookup facebook.com` → tìm địa chỉ IP thật sự của Facebook.
 - `telnet smtp.gmail.com 25` → kiểm tra dịch vụ email của Gmail có đang mở port 25 không.
