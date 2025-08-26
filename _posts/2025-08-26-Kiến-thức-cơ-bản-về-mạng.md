@@ -1,6 +1,6 @@
 ---
 title: "Kiến thức cơ bản về mạng"
-date: 2025-08-26 01:17:00  +0700
+date: 2025-08-26 01:17:00 +0700
 categories: [Programming, Network]
 tags: [networking]
 ---
@@ -27,9 +27,7 @@ tags: [networking]
 Mô hình OSI là mô hình `7 tầng lý thuyết`, còn TCP/IP là mô hình thực tế được dùng trên Internet.
 Ví dụ: Khi bạn gửi một email, nội dung bức thư đi qua tầng Application (ứng dụng email), rồi xuống tầng Transport (TCP chia nhỏ dữ liệu), sau đó đến tầng Internet (IP định tuyến gói tin), cuối cùng qua tầng Network Access (Wi-Fi/Ethernet) để ra ngoài. Ở chiều ngược lại, máy nhận sẽ lắp ghép lại toàn bộ quá trình này.
 
-<p align="center">
-  <img src="/assets/images/network-basic/1.png" alt="Image title_1" />
-</p>
+![Image title_1](/assets/images/network-basic/1.png){: .center}
 
 ## Giao thức mạng 
 
@@ -42,9 +40,7 @@ Ví dụ: Khi bạn gửi một email, nội dung bức thư đi qua tầng Appl
   - Giao thức hoạt động không kết nối (UDP)
     - Quá trình truyền thông chỉ có một giai đoạn duy nhất là truyền dữ liệu, không có giai đoạn thiết lập kết nối cũng như hủy bỏ kết nối
 
-<p align="center">
-  <img src="/assets/images/network-basic/2.png" alt="Image title_1" />
-</p>
+![Image title_1](/assets/images/network-basic/2.png){: .center}
 
 ## Địa chỉ IP và Domain 
 
@@ -63,9 +59,7 @@ Ví dụ: Khi bạn gửi một email, nội dung bức thư đi qua tầng Appl
 - Máy tính hiện đại thực hiện nhiều tiến trình khác nhau cùng lúc như Email, FTP, Web, ... -> thực hiện thông qua port
 - Mỗi máy tính với một địa chỉ IP có 65,535 logic port từ 1->65,535. Mỗi port có thể cấp phát cho một dịch vụ
 
-<p align="center">
-  <img src="/assets/images/network-basic/5.png" alt="Image title_1" />
-</p>
+![Image title_1](/assets/images/network-basic/5.png){: .center}
 
 ## Socket - điểm cuối của giao tiếp
 
@@ -76,18 +70,14 @@ Ví dụ: Khi bạn gửi một email, nội dung bức thư đi qua tầng Appl
   - Datagram socket (UDP Socket)
   - Raw Socket
 
-<p align="center">
-  <img src="/assets/images/network-basic/3.png" alt="Image title_1" />
-</p>
+![Image title_1](/assets/images/network-basic/3.png){: .center}
 
 ## Mô hình Client/Server
 
 Khi bạn mở Facebook trên điện thoại, ứng dụng (client) sẽ gửi yêu cầu đến server của Facebook để lấy dữ liệu (bài viết, ảnh, video). Server phản hồi lại và bạn nhìn thấy kết quả trên màn hình. Đây chính là mô hình client/server.
 Trong khi đó, torrent hoạt động theo mô hình peer-to-peer. Khi bạn tải một bộ phim bằng torrent, máy tính của bạn vừa tải dữ liệu từ người khác (client), vừa chia sẻ dữ liệu cho người khác (server).
 
-<p align="center">
-  <img src="/assets/images/network-basic/4.png" alt="Image title_1" />
-</p>
+![Image title_1](/assets/images/network-basic/4.png){: .center}
 
 ## Công cụ kiểm tra và giám sát mạng
 
