@@ -24,8 +24,8 @@ tags: [networking]
 
 ## Mô hình mạng
 
-Mô hình OSI là mô hình `7 tầng lý thuyết`, còn TCP/IP là mô hình thực tế được dùng trên Internet.
-Ví dụ: Khi bạn gửi một email, nội dung bức thư đi qua tầng Application (ứng dụng email), rồi xuống tầng Transport (TCP chia nhỏ dữ liệu), sau đó đến tầng Internet (IP định tuyến gói tin), cuối cùng qua tầng Network Access (Wi-Fi/Ethernet) để ra ngoài. Ở chiều ngược lại, máy nhận sẽ lắp ghép lại toàn bộ quá trình này.
+- Mô hình OSI là mô hình `7 tầng lý thuyết`, còn TCP/IP là mô hình thực tế được dùng trên Internet.
+- Ví dụ: Khi bạn gửi một email, nội dung bức thư đi qua tầng Application (ứng dụng email), rồi xuống tầng Transport (TCP chia nhỏ dữ liệu), sau đó đến tầng Internet (IP định tuyến gói tin), cuối cùng qua tầng Network Access (Wi-Fi/Ethernet) để ra ngoài. Ở chiều ngược lại, máy nhận sẽ lắp ghép lại toàn bộ quá trình này.
 
 <p align="center">
   <img src="/assets/images/network-basic/1.png" alt="Image title_1" />
@@ -82,8 +82,8 @@ Ví dụ: Khi bạn gửi một email, nội dung bức thư đi qua tầng Appl
 
 ## Mô hình Client/Server
 
-Khi bạn mở Facebook trên điện thoại, ứng dụng (client) sẽ gửi yêu cầu đến server của Facebook để lấy dữ liệu (bài viết, ảnh, video). Server phản hồi lại và bạn nhìn thấy kết quả trên màn hình. Đây chính là mô hình client/server.
-Trong khi đó, torrent hoạt động theo mô hình peer-to-peer. Khi bạn tải một bộ phim bằng torrent, máy tính của bạn vừa tải dữ liệu từ người khác (client), vừa chia sẻ dữ liệu cho người khác (server).
+- Khi bạn mở Facebook trên điện thoại, ứng dụng (client) sẽ gửi yêu cầu đến server của Facebook để lấy dữ liệu (bài viết, ảnh, video). Server phản hồi lại và bạn nhìn thấy kết quả trên màn hình. Đây chính là mô hình client/server.
+- Trong khi đó, torrent hoạt động theo mô hình peer-to-peer. Khi bạn tải một bộ phim bằng torrent, máy tính của bạn vừa tải dữ liệu từ người khác (client), vừa chia sẻ dữ liệu cho người khác (server).
 
 <p align="center">
   <img src="/assets/images/network-basic/4.png" alt="Image title_1" />
