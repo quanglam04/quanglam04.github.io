@@ -7,8 +7,10 @@ tags: [clean code, coding style, best practice]
 
 ---
 
-- Hệ thống
-- bởi Tiến sĩ Kevin Dean Wampler
+_Nguồn: "Clean Code - A Handbook of Agile Software Craftsmanship" - Robert C. Martin_
+
+# CHƯƠNG 11: HỆ THỐNG
+
   ![Image tilte_1](/assets/images/book/clean_code/chap11_image01.png)
   “Loại bỏ sự phức tạp. Nó bòn rút sự sống của các nhà phát triển, khiến các sản phẩm khó lên kế hoạch, xây dựng và thử nghiệm ”. —Ray Ozzie, CTO, Microsoft Corporation
 - Bạn sẽ xây dựng một thành phố như thế nào?

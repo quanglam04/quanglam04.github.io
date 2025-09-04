@@ -7,7 +7,9 @@ tags: [clean code, coding style, best practice]
 
 ---
 
-- CHƯƠNG 3: HÀM
+_Nguồn: "Clean Code - A Handbook of Agile Software Craftsmanship" - Robert C. Martin_
+
+# CHƯƠNG 3: HÀM
 
 Trong những buổi đầu của việc lập trình, chúng tôi soạn thảo các hệ thống câu lệnh và các chương trình con. Sau đó, trong thời đại của Fortran và PL/1, chúng tôi soạn thảo các hệ thống chương trình, chương trình con, và các hàm. Ngày nay, chỉ còn các hàm là tồn tại. Các hàm là những viên gạch xây dựng nên chương trình. Và chương này sẽ giúp bạn tạo nên những viên gạch chắc chắn cho chương trình của bạn.
 

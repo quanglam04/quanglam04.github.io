@@ -7,8 +7,10 @@ tags: [clean code, coding style, best practice]
 
 ---
 
-- Ranh giới
-- bởi James Grenning
+_Nguồn: "Clean Code - A Handbook of Agile Software Craftsmanship" - Robert C. Martin_
+
+# CHƯƠNG 8: RANH GIỚI
+
   ![Image tilte_1](/assets/images/book/clean_code/chap08_image01.png)
   Chúng ta hiếm khi kiểm soát hoàn toàn các phần mềm trong hệ thống của mình. Đôi khi chúng ta mua gói của bên thứ ba hoặc sử dụng mã nguồn mở. Những lần khác, chúng ta phụ thuộc vào các nhóm trong công ty để sản xuất các thành phần hoặc hệ thống con. Bằng cách nào đó, chúng ta phải tích hợp các mã ngoài này với mã riêng của chúng ta một cách rõ ràng. Trong chương này, chúng ta sẽ xem xét các phương pháp và kỹ thuật để giữ cho ranh giới của phần mềm của chúng ta được sạch sẽ.
 

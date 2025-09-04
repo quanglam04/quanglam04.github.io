@@ -7,7 +7,9 @@ tags: [clean code, coding style, best practice]
 
 ---
 
-- CHƯƠNG 4: CƠM-MỪN
+_Nguồn: "Clean Code - A Handbook of Agile Software Craftsmanship" - Robert C. Martin_
+
+# CHƯƠNG 4: CƠM-MỪN
 
 "_Đừng biến đống code gớm ghiếc của bạn thành comment - hãy viết lại nó"_  
 *- Brian W. Kernighan and P. J. Plaugher*

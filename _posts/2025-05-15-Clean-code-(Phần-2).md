@@ -7,7 +7,9 @@ tags: [clean code, coding style, best practice]
 
 ---
 
-- CHƯƠNG 2: NHỮNG CÁI TÊN RÕ NGHĨA
+_Nguồn: "Clean Code - A Handbook of Agile Software Craftsmanship" - Robert C. Martin_
+
+# CHƯƠNG 2: NHỮNG CÁI TÊN RÕ NGHĨA
 
 _- Viết bởi Tim Ottinger_
 

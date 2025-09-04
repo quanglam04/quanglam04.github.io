@@ -7,7 +7,9 @@ tags: [clean code, coding style, best practice]
 
 ---
 
-- CHƯƠNG 6: ĐỐI TƯỢNG VÀ CẤU TRÚC DỮ LIỆU
+_Nguồn: "Clean Code - A Handbook of Agile Software Craftsmanship" - Robert C. Martin_
+
+# CHƯƠNG 6: ĐỐI TƯỢNG VÀ CẤU TRÚC DỮ LIỆU
 
 Chúng tôi có lý do khi muốn giữ các biến là private. Chúng tôi không muốn ai đó phụ thuộc vào chúng. Chúng tôi muốn giữ sự tự do để thay đổi kiểu (dữ liệu) hoặc thực hiện các hành động tùy biến. Nhưng sau đó thì sao? Rất nhiều lập trình viên tự động thêm getter và setter vào class của họ, chẳng khác gì thay đổi các biến `private` thành `public`.
 

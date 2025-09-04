@@ -7,8 +7,10 @@ tags: [clean code, coding style, best practice]
 
 ---
 
-- Chaper 07: Xử lý lỗi
-- Michael Feathers
+_Nguồn: "Clean Code - A Handbook of Agile Software Craftsmanship" - Robert C. Martin_
+
+# CHƯƠNG 7: XỬ LÝ LỖI
+
   ![Image tilte_1](/assets/images/book/clean_code/chap07_image01.png)
 
 Có vẻ kỳ lạ khi lại có một phần về xử lý lỗi trong một cuốn sách về mã sạch. Xử lý lỗi chỉ là một trong những việc mà tất cả chúng ta phải làm khi lập trình. Đầu vào có thể bất thường và thiết bị có thể bị lỗi. Nói tóm lại, mọi thứ đều có thể xảy ra sai sót, và khi chúng xảy ra, chúng ta với tư cách là người lập trình có trách nhiệm đảm bảo rằng mã của chúng ta thực hiện những gì nó cần làm.

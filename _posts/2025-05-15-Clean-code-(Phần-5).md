@@ -7,7 +7,9 @@ tags: [clean code, coding style, best practice]
 
 ---
 
-- CHƯƠNG 5: ĐỊNH DẠNG CODE
+_Nguồn: "Clean Code - A Handbook of Agile Software Craftsmanship" - Robert C. Martin_
+
+# CHƯƠNG 5: ĐỊNH DẠNG CODE
 
 Khi mọi người tiến hành bảo dưỡng dự án, chúng tôi muốn họ ấn tượng bởi sự gọn gàng, nhất quán, và chú ý đến từng chi tiết mà chúng tôi đã tạo ra. Chúng tôi muốn họ choáng ngợp bởi sự ngăn nắp. Chúng tôi muốn họ phải bất ngờ khi xem qua các module. Chúng tôi muốn họ nhận thức được rằng chúng tôi chuyên nghiệp, và đây là sản phẩm được tạo ra bởi chuyên gia. Nhưng nếu điều đó không xảy ra, nếu họ nhìn thấy "một đống" code tứ tung, cứ như thể đống code đó được tạo ra trong cơn phê sau khi lập trình viên hút cần, thì nhiều khả năng họ kết luận rằng những chi tiết cẩu thả tương tự sẽ xuất hiện đầy rẫy trong dự án.
 
