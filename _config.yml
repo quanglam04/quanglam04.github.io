@@ -104,26 +104,17 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
-  # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
-  # The provider options are as follows:
-  disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
-  utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
+  provider: giscus
+
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    repo: quanglam04/quanglam04.github.io # repo chứa blog (cần public)
+    repo_id: R_kgDOPeVy3A # lấy ở https://giscus.app
+    category: General # tên category Discussions (ví dụ: General)
+    category_id: DIC_kwDOPeVy3M4Cu8-_ # lấy ở giscus.app
+    mapping: pathname # map theo URL bài viết
+    input_position: bottom # khung nhập ở dưới cùng
+    lang: vi # ngôn ngữ giao diện comment
+    reactions_enabled: 1 # bật reaction 👍 ❤️ 🚀
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
