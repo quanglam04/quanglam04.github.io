@@ -33,7 +33,7 @@ Nếu trong 1 hệ thống Backend có rất nhiều API cần phải verify acc
 
 Trong Postman, chúng ta có thể tận dụng biến môi trường **(Environment Variables)** để quản lý và tái sử dụng dữ liệu. Các biến này có phạm vi áp dụng trong toàn bộ một collection, nghĩa là nhiều request khác nhau có thể dùng chung cùng một giá trị mà không cần phải nhập đi nhập lại.
 
-Cách sử dụng cũng rất đơn giản: chỉ cần đưa những giá trị dùng chung (ví dụ như `access_token`, `base_url`, `refresh_token…`) vào biến môi trường. Khi cần gọi tới, bạn chỉ việc viết tên biến trong cặp ngoặc nhọn kép. **{{ }}**
+Cách sử dụng cũng rất đơn giản: chỉ cần đưa những giá trị dùng chung (ví dụ như `access_token`, `base_url`, `refresh_token…`) vào biến môi trường. Khi cần gọi tới, bạn chỉ việc viết tên biến trong cặp ngoặc nhọn kép. 
 
 Nhờ vậy, việc viết và quản lý request trở nên gọn gàng hơn, dễ bảo trì hơn, đồng thời hạn chế được sai sót do phải chỉnh sửa thủ công ở nhiều nơi.
 
