@@ -7,7 +7,7 @@ tags: [Postman, API, Automation, Testing, Scripting]
 
 # Kỹ thuật viết Script để tự động hóa một số tác vụ trên Postman
 
-Vấn đề đặt ra: Khi làm việc với Postman để test API, chúng ta thường phải thực hiện nhieefut hao tác lặp lại như nhập lại access_token, copy dữ liệu từ response này để đưa sang request khác, hay viết tay các điều kiện kiểm thử. Nhưng việc này không chỉ mất thời gian mà còn dễ gây nhầm lẫn.
+Vấn đề đặt ra: Khi làm việc với Postman để test API, chúng ta thường phải thực hiện nhiều hao tác lặp lại như nhập lại `access_token`, copy dữ liệu từ response này để đưa sang request khác, hay viết tay các điều kiện kiểm thử. Nhưng việc này không chỉ mất thời gian mà còn dễ gây nhầm lẫn.
 
 Vậy có cách nào để Postman tự động giúp chúng ta những thao tác này, thay vì phải lặp lại thủ công? Đây chính là lý do cần đến **script trong Postman**
 
@@ -31,7 +31,11 @@ Nếu trong 1 hệ thống Backend có rất nhiều API cần phải verify acc
 
 ## Biến môi trường
 
-Trong Postman có hỗ trợ tính năng biến môi trường, tức là các request trong cùng 1 collections có thể đều dùng được giá trị lấy từ trong biến môi trường này. Như vậy ta sẽ để các biến được dùng chung vào trong này, khi cần lấy ra chỉ cần đặt trong cặp ngặp tròn `{{}}`
+Trong Postman, chúng ta có thể tận dụng biến môi trường **(Environment Variables)** để quản lý và tái sử dụng dữ liệu. Các biến này có phạm vi áp dụng trong toàn bộ một collection, nghĩa là nhiều request khác nhau có thể dùng chung cùng một giá trị mà không cần phải nhập đi nhập lại.
+
+Cách sử dụng cũng rất đơn giản: chỉ cần đưa những giá trị dùng chung (ví dụ như `access_token`, `base_url`, `refresh_token…`) vào biến môi trường. Khi cần gọi tới, bạn chỉ việc viết tên biến trong cặp ngoặc nhọn kép `{{ }}`. Ví dụ: `{{access_token}}` hoặc `{{base_url}}`.
+
+Nhờ vậy, việc viết và quản lý request trở nên gọn gàng hơn, dễ bảo trì hơn, đồng thời hạn chế được sai sót do phải chỉnh sửa thủ công ở nhiều nơi.
 
 Để tạo môi trường, tại thanh bên trái postman, tìm đến `Environments`. Tạo mới một môi trường và thêm các biến cần dùng cùng với giá trị của nó 
 
