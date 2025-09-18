@@ -37,4 +37,15 @@ Nó cũng hỗ trợ các tùy chọn ký tự đại diện. Ví dụ: nếu mu
   <img src="/assets/images/git-protect/4.png" alt="Image title_1" />
 </p>
 
-Vậy là từ giờ, khi có 1 pull request vào nhánh master, sẽ yêu cầu ít nhất 1 review từ Code owner, và phải resolve toàn bộ conversation trước khi merge
+## Bước 5: Sau khi tạo thành công các quy tắc, tiến hành apply vào nhánh
+
+<p align="center">
+  <img src="/assets/images/git-protect/5.png" alt="Image title_1" />
+</p>
+
+
+
+Vậy là từ bây giờ, mỗi một commit vào trên nhánh chính `master` cần phải đảm bảo
+- Ngăn chặn việc `push force`
+- Phải qua review của `code owner`
+- Phải qua `merge request` từ một nhánh khác, không được push trực tiếp
