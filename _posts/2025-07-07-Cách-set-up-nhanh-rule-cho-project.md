@@ -43,6 +43,14 @@ Nó cũng hỗ trợ các tùy chọn ký tự đại diện. Ví dụ: nếu mu
   <img src="/assets/images/git-protect/5.png" alt="Image title_1" />
 </p>
 
+## Bước 6 (Optional): Thêm List Bypass
+
+Nếu muốn Admin của Repo có thể Bypass, không cần qua review thì thêm tùy chọn này
+
+<p align="center">
+  <img src="/assets/images/git-protect/6.png" alt="Image title_1" />
+</p>
+
 
 
 Vậy là từ bây giờ, mỗi một commit vào trên nhánh chính `master` cần phải đảm bảo
