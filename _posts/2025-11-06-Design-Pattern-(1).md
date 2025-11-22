@@ -30,7 +30,7 @@ Các đại diện chỉ đơn giản lưu trữ kết quả, không cần quan 
 
 Trong phát triển phần mềm, ta thường gặp các đối tượng phức tạp với nhiều thuộc tính và thành phần. Ví dụ một đối tượng House có thể bao gồm các thành phần như phòng khách, phòng ngủ, nhà bếp, cửa ra vào, cửa sổ, hệ thống điện, nước, và nhiều thành phần khác.
 
-```mermaid
+```bash
 classDiagram
 
   House "1" *-- "n" Room
@@ -82,7 +82,7 @@ Builder Pattern giúp giải quyết vấn đề của việc tạo ra đối t�
 
 Để hiểu rõ hơn, hãy xem ví dụ sau:
 
-```mermaid
+```bash
 graph LR
   A[Director] --> B[Concrete Builder]
   B --> C[Build Door]
@@ -105,7 +105,7 @@ Kết quả là, người dùng ngôi nhà không cần quan tâm đến chi ti�
 
 Builder Pattern có cấu trúc đơn giản, bao gồm các thành phần sau:
 
-```mermaid
+```bash
 classDiagram
 Direction TB
 
