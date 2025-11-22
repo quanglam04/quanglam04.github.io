@@ -43,7 +43,7 @@ graph TD
 
 Singleton giải quyết bằng cách đảm bảo chỉ tạo duy nhất một thể hiện trong toàn bộ chương trình.
 
-```mermaid
+```bash
 graph TD
 
     A[User Management System] --> B[UserManager]
