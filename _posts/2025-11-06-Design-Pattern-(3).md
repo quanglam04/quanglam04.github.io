@@ -21,7 +21,7 @@ Nếu tạo nhiều đối tượng UserManager có thể dẫn đến:
 - Xung đột tài nguyên
 - Khó kiểm soát
 
-```mermaid
+```bash
 graph TD
     A[User Management System] --> B1[UserManager 1]
     A --> B2[UserManager 2]
@@ -73,7 +73,7 @@ Với cách triển khai này, chỉ có một đối tượng UserManager duy n
 
 Singleton Pattern có cấu trúc đơn giản, bao gồm các thành phần sau:
 
-```mermaid
+```bash
 classDiagram
     direction TB
     class Singleton {

@@ -25,7 +25,7 @@ Hãy tưởng tượng bạn đang xây dựng một hệ thống quản lý bá
 
 Tuy nhiên, theo thời gian, bạn nhận thấy nhu cầu của khách hàng đang thay đổi. Người dùng muốn có sự linh hoạt hơn trong việc thanh toán, bao gồm thanh toán trực tuyến qua thẻ tín dụng và ví điện tử.
 
-```mermaid
+```bash
 graph TB
 
     subgraph Before
@@ -66,7 +66,7 @@ Tuy nhiên, có một hạn chế nhỏ: các lớp con chỉ có thể trả v�
 
 Ví dụ, trong bài toán thanh toán ở Việt Nam, bạn có thể tạo một giao diện (interface) có tên là `PaymentMethod` với một phương thức chung là `performPayment` (thực hiện thanh toán). Sau đó, bạn tạo hai lớp cụ thể, ví dụ: `CashOnDeliveryPayment` và `OnlinePayment`, và cả hai lớp này đều triển khai giao diện `PaymentMethod`.
 
-```mermaid
+```bash
 classDiagram
     class PaymentMethod {
         + performPayment(): void
@@ -88,7 +88,7 @@ Lớp `CashOnDeliveryPayment` có thể triển khai phương thức `performPay
 
 Tiếp theo, bạn tạo một lớp `PaymentFactory` với một phương thức `createPaymentMethod`, và các lớp cụ thể `CashOnDeliveryPaymentFactory` và `OnlinePaymentFactory` kế thừa từ lớp này.
 
-```mermaid
+```bash
 classDiagram
     class PaymentFactory {
         + createPaymentMethod(): PaymentMethod
@@ -117,7 +117,7 @@ Factory Method có cấu trúc đơn giản, bao gồm các thành phần sau:
 - Lớp cha: Lớp cha chứa phương thức trừu tượng để tạo các đối tượng của lớp.
 - Lớp con: Các lớp con triển khai phương thức trừu tượng của lớp cha để tạo các đối tượng của lớp theo cách tùy ý.
 
-```mermaid
+```bash
 classDiagram
     class Creator {
         +factoryMethod()
