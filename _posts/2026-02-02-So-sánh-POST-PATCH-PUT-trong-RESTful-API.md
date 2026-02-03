@@ -1,6 +1,6 @@
 ---
 title: "So sánh POST, PATCH và PUT trong RESTful API"
-date: 2026-02-03 21:38:00 +0700
+date: 2026-02-02 21:38:00 +0700
 categories: [Programming, Backend]
 tags: [REST API, HTTP Methods, Web Development, Backend, API Design]
 ---
