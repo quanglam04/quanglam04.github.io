@@ -5,9 +5,8 @@ order: 4
 ---
 
 Xin chào, mình là Trịnh Quang Lâm 👋
-Hiện tại mình đang là sinh viên năm 3 tại Học viện Công nghệ Bưu chính Viễn thông.
 
-Blog này ra đời với mục tiêu chia sẻ những kiến thức, kinh nghiệm và kỹ năng mà mình đã tích lũy trong suốt quá trình học tập, tự nghiên cứu và làm việc. Mình coi đây vừa là nơi chia sẻ cho cộng đồng, vừa là thư viện cá nhân để lưu trữ lại mọi thứ — để sau này cần xem lại là có thể tìm thấy ngay.
+Hiện tại mình đang là Software Engineer tại Viettel. Blog này được khởi đầu từ những ngày mình còn là sinh viên năm 3 tại Học viện Công nghệ Bưu chính Viễn thông, với mục tiêu chia sẻ những kiến thức, kinh nghiệm và kỹ năng mà mình đã tích lũy trong suốt quá trình học tập, tự nghiên cứu và làm việc.
 
 Mình có niềm đam mê đặc biệt với Backend Development và Software Architecture. Với mình, backend không chỉ dừng lại ở việc “viết API cho xong chức năng”, mà còn là cả một thế giới của tư duy thiết kế hệ thống:
 
