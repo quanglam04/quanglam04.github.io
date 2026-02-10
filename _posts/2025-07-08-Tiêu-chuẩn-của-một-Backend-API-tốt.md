@@ -7,7 +7,6 @@ tags: [api, rest, backend]
 
 ---
 
-# Các tiêu chuẩn của một API đảm bảo chất lượng tốt
 
 ## 1. Bảo mật API
 

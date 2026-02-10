@@ -5,7 +5,6 @@ categories: [architecture, clean]
 tags: [architecture]
 ---
 
-# Kiến trúc Clean Architecture và Ứng dụng Thực Tế 
 
 ---
 

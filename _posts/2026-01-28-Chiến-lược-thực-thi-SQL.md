@@ -7,7 +7,6 @@ tags: [performance, execution plan]
 
 
 
-# Hiểu Rõ Quy Trình Thực Thi SQL - Chìa Khóa Tối Ưu Hiệu Năng Database
 
 Bạn có bao giờ tự hỏi điều gì xảy ra "phía sau hậu trường" khi bạn gửi một câu lệnh SQL đến database? Tại sao đôi khi một câu query đơn giản lại chạy chậm đến khó hiểu? Hiểu rõ quy trình thực thi SQL không chỉ giúp bạn debug hiệu quả hơn mà còn có thể cải thiện performance gấp **hàng trăm lần** - không cần phải thay đổi phần cứng hay nâng cấp server.
 

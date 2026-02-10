@@ -7,7 +7,6 @@ tags: [docker, container, devops]
 
 ---
 
-# Tìm hiểu về Docker
 
 <p align="center">
   <img src="/assets/images/docker/1.png" alt="Image title_1" />

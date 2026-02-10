@@ -7,7 +7,6 @@ tags: [session, jwt, authentication]
 
 ---
 
-# Xác thực dựa trên Session (Session-Based Authentication)
 
 Quy trình bắt đầu khi người dùng gửi thông tin đăng nhập của họ tới server. Server xác minh thông tin đó, và nếu hợp lệ, nó sẽ tạo một session mới. Server lưu trữ dữ liệu session này, thường trong một cơ sở dữ liệu hoặc cache như Redis. Dữ liệu này có thể bao gồm ID người dùng, thời gian hết hạn session, và các metadata khác. Server phản hồi lại với một ID session (session ID) duy nhất, thường dưới dạng cookie.<br></br>Trong các request sau đó, client tự động gửi session ID cookie cùng với mỗi request. Server sử dụng session ID, tra cứu dữ liệu session tương ứng trong kho lưu trữ và sử dụng dữ liệu đó để xác thực và xử lý request.
 

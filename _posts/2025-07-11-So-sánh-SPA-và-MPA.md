@@ -7,7 +7,6 @@ tags: [web,architecture,frontend]
 
 ---
 
-# So sánh SPA (Single-Page-Application) và MPA (Mutilple-Page-Application)
 
 MPA là Multiple Page Application, tức là những website truyền thống chuyển trang thì sẽ load lại toàn bộ trang web.
 

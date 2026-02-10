@@ -1,13 +1,11 @@
 ---
-title: "Cơ chế xác thực SSH bằng cặp khóa"
+title: "Cơ chế xác thực SSH bằng cặp khóa (SSH Key Pair Authentication)"
 date: 2025-08-16 01:17:00  +0700
 categories: [DevOps, Security, SSH]
 tags: [ssh, public-key, openssh, authentication, linux]
 ---
 
 ---
-
-# Cơ chế xác thực SSH bằng cặp khóa (SSH Key Pair Authentication)
 
 Khi chúng ta kết nối vào một máy chủ thông qua SSH, có hai cách phổ biến để xác thực: dùng mật khẩu hoặc dùng cặp khóa SSH. Trong đó, xác thực bằng khóa được xem là an toàn hơn nhiều, vì không có mật khẩu nào được gửi và cũng tránh được nguy cơ brute-force. Để hiểu rõ hơn, hãy đi qua từng bước trong quá trình xác thực bằng cặp khóa:
 

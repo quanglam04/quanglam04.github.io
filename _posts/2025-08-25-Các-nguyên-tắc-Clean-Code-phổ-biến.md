@@ -7,7 +7,6 @@ tags: [clean code, coding style, best practice]
 
 ---
 
-# 10 nguyên tắc Clean Code phổ biến
 
 ## 1. Return sớm nhất có thể hay đơn giản là tránh việc để quá nhiều điều kiện lồng nhau
 

@@ -5,7 +5,6 @@ categories: [message broker]
 tags: [rabbitmq]
 ---
 
-# Các khái niệm cốt lõi cần nắm khi làm việc với RabbitMQ
 
 _Nguồn: Medium_
 

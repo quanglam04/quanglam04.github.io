@@ -6,7 +6,6 @@ tags: [cache, redis]
 ---
 
 
-# Tại sao RAM nhanh hơn ổ cứng? Từ lý thuyết đến thực hành
 
 
 ## Phần 1: Lý thuyết cơ bản

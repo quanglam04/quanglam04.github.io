@@ -5,7 +5,6 @@ categories: [Programming, API Testing]
 tags: [Postman, API, Automation, Testing, Scripting]
 ---
 
-# Kỹ thuật viết Script để tự động hóa một số tác vụ trên Postman
 
 Vấn đề đặt ra: Khi làm việc với Postman để test API, chúng ta thường phải thực hiện nhiều hao tác lặp lại như nhập lại `access_token`, copy dữ liệu từ response này để đưa sang request khác, hay viết tay các điều kiện kiểm thử. Nhưng việc này không chỉ mất thời gian mà còn dễ gây nhầm lẫn.
 

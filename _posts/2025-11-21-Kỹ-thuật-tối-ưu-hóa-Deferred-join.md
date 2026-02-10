@@ -5,7 +5,6 @@ categories: [database, pagination]
 tags: [optimize]
 ---
 
-# Kỹ thuật Deferred Join - Tối ưu hóa phân trang cho bảng dữ liệu lớn
 
 ## Giới thiệu
 

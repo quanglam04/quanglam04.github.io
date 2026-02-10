@@ -7,7 +7,6 @@ tags: [coding style, backend, convention]
 
 ---
 
-# Java Spring Boot + JPA Coding Guideline
 
 ## Mục lục
 

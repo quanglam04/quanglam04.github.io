@@ -6,7 +6,6 @@ tags: [javascript]
 ---
 
 
-# Tìm Hiểu Navigator API
 
 ## Giới thiệu
 

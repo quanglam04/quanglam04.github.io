@@ -5,7 +5,6 @@ categories: [architecture, design, pattern]
 tags: [design]
 ---
 
-# Buider Pattern - Design Pattern (phần 1)
 
 _Nguồn: Design Pattern Tiếng Việt_
 

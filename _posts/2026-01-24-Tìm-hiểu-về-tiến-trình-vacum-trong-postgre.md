@@ -5,7 +5,6 @@ categories: [database, optimize, postgre]
 tags: [optimize]
 ---
 
-# VACUUM trong PostgreSQL - Kiến thức cơ bản cho Backend Developer
 
 ## 1. Tại sao PostgreSQL cần VACUUM?
 

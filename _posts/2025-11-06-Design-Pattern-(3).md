@@ -6,7 +6,6 @@ tags: [design]
 ---
 
 
-# Singleton
 
 ## Giới thiệu
 

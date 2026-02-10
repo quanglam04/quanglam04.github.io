@@ -5,7 +5,6 @@ categories: [web, Frontend]
 tags: [web,frontend]
 ---
 
-# Một số React Hook phổ biến
 
 React Hooks là những function đặc biệt cho phép "hook into" (kết nối với) các tính năng của React trong function component. Hooks được giới thiệu từ React 16.8 và đã thay đổi cách viết React component.
 

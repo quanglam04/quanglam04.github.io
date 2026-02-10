@@ -6,7 +6,6 @@ tags: [REST API, HTTP Methods, Web Development, Backend, API Design]
 ---
 
 
-# So sánh POST, PATCH và PUT trong RESTful API
 
 ## Giới thiệu
 

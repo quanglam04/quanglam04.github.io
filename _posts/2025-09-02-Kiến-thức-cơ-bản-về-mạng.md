@@ -7,7 +7,6 @@ tags: [networking]
 
 ---
 
-# Kiến thức cơ bản cần nắm về mạng
 
 ## Mạng là gì?
 

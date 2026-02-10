@@ -7,7 +7,6 @@ tags: [tools,vscode,api]
 
 ---
 
-# REST Client VS Code - Complete Guide
 
 📋 Tổng quan
 REST Client là extension mạnh mẽ cho VS Code giúp test API trực tiếp trong editor mà không cần tools bên ngoài như Postman.

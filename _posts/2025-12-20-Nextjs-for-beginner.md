@@ -7,7 +7,6 @@ tags: [nextjs, react]
 
 
 
-# Next.js App Router - Hướng dẫn cho Người mới bắt đầu
 
 ## 1. Khởi tạo Project
 

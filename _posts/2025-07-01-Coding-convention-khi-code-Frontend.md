@@ -7,7 +7,6 @@ tags: [coding style, backend, convention]
 
 ---
 
-# Coding Guidelines
 
 ## Mục lục
 

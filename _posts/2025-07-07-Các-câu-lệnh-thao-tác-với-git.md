@@ -7,7 +7,6 @@ tags: [git]
 
 ---
 
-# Một số câu lệnh thao tác với git cần phải biết
 
 <p align="center">
   <img src="/assets/images/git/architecture.png" alt="Image title_1" />

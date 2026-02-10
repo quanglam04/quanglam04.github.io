@@ -5,7 +5,6 @@ categories: [os, docker]
 tags: [os, docker]
 ---
 
-# Docker hoạt động như thế nào ở tầng OS?
 
 ## Giới thiệu
 

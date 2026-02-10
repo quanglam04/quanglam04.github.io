@@ -7,7 +7,6 @@ tags: [redis]
 
 _Nguồn: AnhDH_
 
-# Distributed Lock và cách triển khai với Redis
 
 Trong các hệ thống phân tán, việc đảm bảo tính nhất quán của dữ liệu (data consistency) và ngăn chặn tranh chấp tài nguyên (race condition) là một thách thức lớn, đặc biệt khi nhiều tiến trình hoặc service truy cập đồng thời vào các tài nguyên dùng chung. Một trong những giải pháp quan trọng để giải quyết vấn đề này chính là sử dụng `distributed lock` (khóa phân tán).
 

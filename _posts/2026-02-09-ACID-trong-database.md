@@ -5,7 +5,6 @@ categories: [Programming, Database]
 tags: [Database, ACID, Transaction, SQL, Database Design, System Design, Data Integrity]
 ---
 
-# ACID là gì? Tìm hiểu về các thuộc tính ACID trong Database
 
 ## Giới thiệu
 

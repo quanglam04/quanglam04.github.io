@@ -5,7 +5,6 @@ categories: [hibernate, jpa]
 tags: [hibernate, jpa]
 ---
 
-## 1. Hibernate là gì? Nó sinh ra để giải quyết vấn đề gì?
 
 ### Hibernate là gì?
 

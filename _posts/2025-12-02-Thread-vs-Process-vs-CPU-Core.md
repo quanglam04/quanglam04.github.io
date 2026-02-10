@@ -5,7 +5,6 @@ categories: [operating-system]
 tags: [operating-system, process, thread, scheduling]
 ---
 
-# Thread vs Process vs CPU Core: Concurrent vs Parallel - Hiểu đúng để tối ưu hiệu năng
 
 ## 1. Thread là gì?
 

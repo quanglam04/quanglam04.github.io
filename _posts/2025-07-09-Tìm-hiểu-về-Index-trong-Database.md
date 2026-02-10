@@ -7,18 +7,18 @@ tags: [backend,database]
 
 ---
 
-# Index trong database là gì?
+## Index trong database là gì?
 
 - index là một cấu trúc dữ liệu được dùng để định vị và truy cập nhanh vào dữ liệu trong các bảng database
 - index là một cách tối ưu hiệu suất truy vân database bằng việc giảm lượng truy cập vào bộ nhớ khi thực hiện truy vấn
 
-# Index trong database để làm gì
+## Index trong database để làm gì
 
 - Giả sử ta có 1 bảng user lưu thông tin của người dùng, ta muốn lấy ra thông tin của người dùng có trường tên (Name) là "Lam". Ta có tủy vấn SQL sau: `SELECT * FROM User WHERE Name = 'LAM'`
 - Khi không có Index cho cột Name, truy vấn sẽ phải chạy qua tất cả các Row của bảng User để so sánh và lấy ra những Row thỏa mãn. Vì vậy, khi số lượng bản ghi lớn, việc này tiêu tốn rất nhiều thời gian. Index được sinh ra để giải quyết vấn đề này. Nói đơn giản, index như mục lục của một cuốn sách, nó giúp truy vấn trở nên nhánh chóng như việc xem mục lục và tìm đúng trang cần đọc
 - Index có thể được tạo cho một hoặc nhiều cột trong database. Index thường được tạo mặc định cho primary key, foreign key. Ngoài ra, ta cũng có thể tạo thêm index cho các cột nếu cần
 
-# Cấu trúc của Index
+## Cấu trúc của Index
 
 - Index là một cấu trúc dữ liệu gồm:
 
@@ -29,7 +29,7 @@ tags: [backend,database]
   <img src="/assets/images/tim-hieu-ve-index/1.png" alt="Image title_1" />
 </p>
 
-# Một số lại Index Database
+## Một số lại Index Database
 
 1. B-tree
 
@@ -51,7 +51,7 @@ tags: [backend,database]
 - Toàn bộ nội dung của Key được sử dụng để etifm kiếm giá trị records, khác với B-Tree một phần của node cũng có thể được sử dụng để tìm kiếm
 - Hash có tốc độ nhanh hơn kiểu B-Tree
 
-# Dùng Index Database thế nào cho hiệu quả
+## Dùng Index Database thế nào cho hiệu quả
 
 - Dù Index đóng vai trò quan trọng trong việc tối ưu truy vấn và tăng tốc độ tìm kiếm trong Database nhưng nhược điểm của nó là tốn thêm bộ nhớ để lưu trữ. Do vậy, việc Index cho các cột phải được tính toán, tránh lạm dụng.
 
@@ -64,7 +64,7 @@ tags: [backend,database]
 5. **Không** dùng Index cho các cột mà giá trị thường xuyên bị thay đổi
 6. Dùng câu lệnh EXPLAIN giúp ta biết được MySQL sẽ chạy truy vấn ra sao. Nó thể hiện thứ tự join, các bảng được join như thế nào. Giúp việc xem xét để viết truy vấn tối ưu, chọn cột để Index dễ dàng hơn
 
-# Một số lệnh Index Database
+## Một số lệnh Index Database
 
 1. Create Index trong SQL:
 

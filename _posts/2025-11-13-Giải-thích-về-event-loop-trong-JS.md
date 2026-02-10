@@ -5,7 +5,6 @@ categories: [thread, event-loop]
 tags: [javascript]
 ---
 
-# Giải thích về Event Loop trong JavaScript
 
 ## Tại sao Event Loop sinh ra
 

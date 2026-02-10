@@ -5,7 +5,6 @@ categories: [CLI]
 tags: [cli]
 ---
 
-# 📚 TỔNG HỢP KIẾN THỨC SEQUELIZE CLI
 
 ## **1. SEQUELIZE CLI LÀ GÌ?**
 

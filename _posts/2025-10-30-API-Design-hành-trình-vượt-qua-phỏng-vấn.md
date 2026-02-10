@@ -5,7 +5,6 @@ categories: [Programming, API design]
 tags: [API, design]
 ---
 
-# API design: hành trình vượt qua phỏng vấn
 _Nguồn: Trung Vương_
 
 ## Lời Mở Đầu:

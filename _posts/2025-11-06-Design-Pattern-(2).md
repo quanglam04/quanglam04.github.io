@@ -5,7 +5,6 @@ categories: [architecture, design, pattern]
 tags: [design]
 ---
 
-# Factory Method
 
 ## Giới thiệu
 

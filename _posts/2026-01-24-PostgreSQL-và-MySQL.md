@@ -5,7 +5,6 @@ categories: [database, optimize, mysql, postgre]
 tags: [optimize]
 ---
 
-# PostgreSQL vs MySQL: So sánh hiệu năng trong truy vấn phức tạp và CCU lớn
 
 Năm 2016, cộng đồng công nghệ chấn động khi Uber công bố quyết định di chuyển hàng loạt hệ thống từ `PostgreSQL` sang `MySQL`. Với một nền tảng xử lý hàng triệu chuyến đi mỗi ngày, quyết định này không đơn thuần là thay đổi công nghệ mà là kết quả của những thử nghiệm kỹ lưỡng về hiệu năng thực tế. Câu hỏi đặt ra: Điều gì khiến một trong những hệ thống phân tán phức tạp nhất thế giới lại đưa ra lựa chọn này?
 

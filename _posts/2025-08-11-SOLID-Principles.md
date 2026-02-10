@@ -7,7 +7,6 @@ tags: [clean code, coding style, best practice]
 
 ---
 
-# SOLID Principles trong phát triền phần mềm
 
 _Nguồn: baeldung.com_
 

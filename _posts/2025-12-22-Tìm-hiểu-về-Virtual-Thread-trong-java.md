@@ -5,7 +5,6 @@ categories: [os, java, optimize]
 tags: [java, thread]
 ---
 
-# Virtual Threads trong Java: Cách mạng hóa Concurrent Programming
 
 ## Giới thiệu
 

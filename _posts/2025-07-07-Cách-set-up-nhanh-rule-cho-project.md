@@ -7,7 +7,6 @@ tags: [rules, setup, project]
 
 ---
 
-# Cách thiết lập quy tắc bảo vệ nhánh Git trong Github
 
 ## Bước 1: Điều hướng đến trang chủ kho lưu trữ tại Github
 
