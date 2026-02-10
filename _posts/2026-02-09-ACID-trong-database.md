@@ -1,6 +1,6 @@
 ---
 title: "ACID là gì? Tìm hiểu về các thuộc tính ACID trong Database"
-date: 2026-02-10 21:38:00 +0700
+date: 2026-02-09 21:38:00 +0700
 categories: [Programming, Database]
 tags: [Database, ACID, Transaction, SQL, Database Design, System Design, Data Integrity]
 ---
