@@ -6,8 +6,6 @@ tags: [nextjs, react]
 ---
 
 
-
-
 ## 1. Khởi tạo Project
 
 ### Cài đặt Next.js với App Router
