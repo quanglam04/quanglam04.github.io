@@ -1,6 +1,6 @@
 ---
 title: "Tổng hợp các kỹ thuật tối ưu Query SQL — Từ cơ bản đến nâng cao"
-date: 2026-04-28 21:38:00 +0700
+date: 2026-04-27 21:38:00 +0700
 categories: [Database, Optimize]
 tags: [database, optimize]
 ---
